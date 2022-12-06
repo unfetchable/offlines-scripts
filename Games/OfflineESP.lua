@@ -118,6 +118,6 @@ task.spawn(function()
     wm_text.Size = 13
 
     while task.wait(0.9) do
-        wm_text.Text = 'offline esp | patch fix | '..os.date("%x %X", os.time())
+        wm_text.Text = 'offline ware | patch fix 12/4 | '..os.date("%x %X", os.time())
     end
 end)
