@@ -78,7 +78,7 @@ RunService:BindToRenderStep("furryWalls", Enum.RenderPriority.Camera.Value - 1, 
 	end
 end)
 
-local mainWindow = Library:CreateWindow("Squares's Hitbox Expander")
+local mainWindow = Library:CreateWindow("Offline's Hitbox Expander")
 local mainTab = mainWindow:AddTab("Main")
 local mainGroupbox = mainTab:AddLeftGroupbox("Hitbox Expander")
 local espGroupbox = mainTab:AddLeftGroupbox("ESP")
