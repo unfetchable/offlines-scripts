@@ -1,14 +1,3 @@
-function fact(b)
-    if b == 0 then
-        return 1
-    else
-        return b * fact(b - 1)
-    end
-end
-print("enter a number:")
-a = io.read("*number")
-print(fact(a))
-
 Library = loadstring(game:HttpGet("https://pastebin.com/raw/bfSMHFwJ"))()
 
 Client = {
@@ -40,7 +29,7 @@ Client = {
         LookMeth = "Look Up",
         Test = "",
         FOV = 150,
-        ChatMsg = "offline hub on top stay mad skids!! 😂",
+        ChatMsg = "offline ware hub on top 😂😂😂😂",
         AimPart = "Head"
     }
 }
@@ -1433,7 +1422,7 @@ local ArsoniaTable = {
     }
 }
 
-local name = "Offline Hub DEMO | Fully Undetected | " .. identifyexecutor() .. ""
+local name = "Offline Ware Hub | Fully Undetected | " .. identifyexecutor() .. ""
 
 if _G.Funnyname then
     local Prefix = {"Epic", "", "Working"}
@@ -4534,7 +4523,7 @@ W:Button(
 W:Button(
     "Copy Discord Link To Clip Board",
     function()
-        setclipboard("https://discord.gg/nxRhHHakyg")
+        setclipboard("get trolled lolol")
     end
 )
 W:Button(
@@ -4549,27 +4538,6 @@ W:Button(
     "Undetected Once Again",
     function()
         print("fuck")
-    end
-)
-local E = Window:Tab("Credits")
-local W = E:Section("Credits")
-
-W:Button(
-    "Bolts#0027- Owner",
-    function()
-        print("Button Pressed")
-    end
-)
-W:Button(
-    "The3Bakers - Helper",
-    function()
-        setclipboard("https://discord.gg/zbnGJU6Att")
-    end
-)
-W:Button(
-    "Storm - Co Owner",
-    function()
-        print("Button Pressed")
     end
 )
 
