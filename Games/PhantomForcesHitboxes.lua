@@ -1,28 +1,28 @@
 -- made by Offline
 -- #pfskiddies
 
-Size = 8 -- setting higher than 8 will make your guns deal 0 damage, 2-5 to look legit
+Size = 5 -- setting higher than 8 will make your guns deal 0 damage, 2-5 to look legit
 Transparency = 0.5
 
 game:GetService("RunService").Stepped:Connect(
     function()
         for i, v in next, workspace.Players:GetDescendants() do
-            if v:FindFirstChild("Torso") and not v:FindFirstChildWhichIsA("MeshPart") then
-                sethiddenproperty(v["Torso"], "Massless", true)
-                v["Torso"].CanCollide = false
-                v["Torso"].Transparency = Transparency
+            if v:FindFirstChild("Left Leg") and not v:FindFirstChildWhichIsA("MeshPart") then
+                sethiddenproperty(v["Left Leg"], "Massless", true)
+                v["Left Leg"].CanCollide = false
+                v["Left Leg"].Transparency = Transparency
                 if
-                    v["Torso"].Size ~= Vector3.new(Size, Size, Size) and
-                        v["Torso"].Mesh.Scale ~= Vector3.new(Size, Size, Size)
+                    v["Left Leg"].Size ~= Vector3.new(Size, Size, Size) and
+                        v["Left Leg"].Mesh.Scale ~= Vector3.new(Size, Size, Size)
                  then
-                    v["Torso"].Size = Vector3.new(Size, Size, Size)
-                    v["Torso"].Mesh.Scale = Vector3.new(Size, Size, Size)
+                    v["Left Leg"].Size = Vector3.new(Size, Size, Size)
+                    v["Left Leg"].Mesh.Scale = Vector3.new(Size, Size, Size)
                 end
-                if v["Torso"].Parent.Parent.Name == "Bright blue" then
-                    v["Torso"].BrickColor = BrickColor.new("Bright blue")
+                if v["Left Leg"].Parent.Parent.Name == "Bright blue" then
+                    v["Left Leg"].BrickColor = BrickColor.new("Bright blue")
                 end
-                if v["Torso"].Parent.Parent.Name == "Bright orange" then
-                    v["Torso"].BrickColor = BrickColor.new("Bright orange")
+                if v["Left Leg"].Parent.Parent.Name == "Bright orange" then
+                    v["Left Leg"].BrickColor = BrickColor.new("Bright orange")
                 end
             end
         end
